@@ -25,6 +25,8 @@ preco > lucro
 
 ################ Matrizes ####################
 
+#cbind é de column bind (vinculando a coluna)
 matrix = cbind(preco, custo)
 
 matrix2 = cbind(preco, produto)
+View(matrix2) #como o print do python
