@@ -30,3 +30,15 @@ matrix = cbind(preco, custo)
 
 matrix2 = cbind(preco, produto)
 View(matrix2) #como o print do python
+
+
+
+################ Data Frames ################
+
+data_frame = data.frame(coluna1 = preco, coluna2 = produto)
+data_frame2 = data.frame(preco_pratico = preco, 
+                         preco_de_custo = custo, 
+                         produto_vendido = produto,
+                         receita_positiva = obteve_lucro,
+                         periodo = datas)
+View(data_frame2)
