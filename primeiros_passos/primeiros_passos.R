@@ -42,3 +42,15 @@ data_frame2 = data.frame(preco_pratico = preco,
                          receita_positiva = obteve_lucro,
                          periodo = datas)
 View(data_frame2)
+
+hist(data_frame$coluna1) #criando histoplot
+
+boxplot(data_frame$coluna1) #criando o boxplot
+
+mean(data_frame2$preco_pratico) #verificando a média da coluna
+
+########################## listas #######################
+lista = list(Objeto1 = preco, Objeto2 = data_frame2) #criando uma lista
+
+lista[[1]] #acessando objetos dentro de uma lista
+
